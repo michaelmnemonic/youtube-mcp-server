@@ -38,6 +38,7 @@ Thumbs.db
 
 # Keep specific JSON files
 !package.json
+!package-lock.json
 !tsconfig.json
 !.env.example
 
