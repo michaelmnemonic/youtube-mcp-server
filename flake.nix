@@ -16,7 +16,7 @@
       npmDepsHash = "sha256-RTROQkoOpRUiBvB1zXittXB1HgtBN+GLTD0tx+ZkWaA=";
     };
 
-    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
+    packages.aarch64-linux.default = self.packages.aarch64-linux.youtube-mcp-server;
 
     devShells.aarch64-linux.default = nixpkgs.legacyPackages.aarch64-linux.mkShell {
       buildInputs = with nixpkgs.legacyPackages.aarch64-linux; [
